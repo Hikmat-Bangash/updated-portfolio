@@ -10,7 +10,7 @@ import Project5 from '../../assets/projects/chatbot.jpg';
 import Project6 from '../../assets/projects/TwitterApi.jpg';
 import Project7 from '../../assets/projects/HotelBookingApi.jpg';
 import Project8 from '../../assets/projects/YoutubeApi.png';
-import Project9 from '../../assets/projects/musicplayer.jpg';
+import Project9 from '../../assets/projects/ecommerce.jpg';
 import Project10 from '../../assets/projects/movietheater.jpg';
 import Project11 from '../../assets/projects/notesmaking.jpg';
 import Project12 from '../../assets/projects/weather.jfif';

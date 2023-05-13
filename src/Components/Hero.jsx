@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
 
           <div className="flex-1 flex flex-col justify-center items-center md:justify-start md:items-start">
-            <p className="font-medium text-lg font-normal text-pink-400  mb-[10px]">
+            <p className=" text-lg font-normal text-pink-400  mb-[10px]">
               Hey There 👋, I'm Hikmat Bangash
               <br />
               Fresh graduate <span className="font-bold text-gray-300 tracking-wide">Software Engineer</span> 

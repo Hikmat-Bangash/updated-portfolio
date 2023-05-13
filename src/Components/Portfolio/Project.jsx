@@ -14,8 +14,8 @@ const Project = ({ item }) => {
         obcaecati ipsam.
       </p> */}
         <div className="w-full mt-2 flex justify-around items-center ">
-          <a href={item.live != "null" ? item.live : '/'} target='_blank'>
-            <button className={`bg-gray-800 rounded-md px-2 font-light text-white opacity-70 hover:opacity-100 tracking-wide ${item.live != null ? "cursor-pointer" : "cursor-not-allowed"}`}> Demo</button>
+          <a href={item.live != "null" ? item.live : null} target='_blank'>
+            <button className={`bg-gray-800 rounded-md px-2 font-light text-white opacity-70 hover:opacity-100 tracking-wide ${item.live != "null" ? "cursor-pointer" : "cursor-not-allowed"}`}> Demo</button>
           </a>
           
           <a href={item.code} target='_blank'>
