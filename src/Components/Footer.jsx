@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
           
           <p className=' hidden md:block text-pink-400 text-md'>
-            &copy;2022 Hikmat Bangash
+            &copy;2023 Hikmat Bangash
           </p>
         </div>
       </div>

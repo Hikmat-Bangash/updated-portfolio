@@ -83,7 +83,7 @@ const skills = [
   {
     name: "SEQUELIZE",
     image: sequelize,
-    style: "shadow-neutral-400",
+    style: "shadow-blue-500",
     level: "Intermediate"
   },
   {
@@ -95,7 +95,7 @@ const skills = [
   {
     name: "MONGODB",
     image: MONGODB,
-    style: "shadow-lime-800",
+    style: "shadow-lime-700",
     level: "Intermediate"
   },
   {
@@ -118,8 +118,8 @@ const Experience = () => {
     <section id='experience' className='Experience w-full relative top-14 bg-gray-900  z-10'>
     <div className="flex justify-center py-16 lg:py-8">
       <div class="md:text-3xl text-2xl  font-bold tracking-widest top-4 ">
-        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-cyan-500 to-violet-500 border-b-2 text-blue-500">
-          Experience
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-cyan-500 to-violet-500 border-b-2">
+          EXPERTISE
         </span>
       </div>
     </div>

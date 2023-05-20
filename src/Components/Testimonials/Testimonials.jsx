@@ -8,7 +8,7 @@ const Testimonials = () => {
     <div className="flex justify-center py-10 sm:py-16 lg:py-8">
       <div class="md:text-3xl text-2xl  font-bold tracking-widest top-4 ">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-cyan-500 to-violet-500 border-b-2">
-          Testimonials
+          TESTIMONIALS
         </span>
       </div>
     </div>

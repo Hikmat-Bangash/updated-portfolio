@@ -12,9 +12,9 @@ import Project7 from '../../assets/projects/HotelBookingApi.jpg';
 import Project8 from '../../assets/projects/YoutubeApi.png';
 import Project9 from '../../assets/projects/ecommerce.jpg';
 import Project10 from '../../assets/projects/movietheater.jpg';
-import Project11 from '../../assets/projects/notesmaking.jpg';
-import Project12 from '../../assets/projects/weather.jfif';
-import Project13 from '../../assets/projects/ecommerce.jpg';
+import Project12 from '../../assets/projects/notesmaking.jpg';
+import Project11 from '../../assets/projects/weather.jfif';
+import Project13 from '../../assets/projects/musicplayer.jpg';
 
 
 
@@ -177,7 +177,7 @@ const Projects = () => {
     <div>
       {/* projects nav */}
       <nav className='mb-12 max-w-xl mx-auto'>
-        <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>
+        <ul className='flex flex-row md:flex-row justify-evenly items-center text-white'>
           {projectsNav.map((item, index) => {
             return (
               <li
@@ -195,7 +195,7 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <section className='grid gap-y-12 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-x-6'>
+      <section className='grid md:gap-y-12 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-x-6'>
         {projects.map((item) => {
           return <Project item={item} key={item.id} />;
         })}

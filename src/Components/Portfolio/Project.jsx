@@ -15,11 +15,11 @@ const Project = ({ item }) => {
       </p> */}
         <div className="w-full mt-2 flex justify-around items-center ">
           <a href={item.live != "null" ? item.live : null} target='_blank'>
-            <button className={`bg-gray-800 rounded-md px-2 font-light text-white opacity-70 hover:opacity-100 tracking-wide ${item.live != "null" ? "cursor-pointer" : "cursor-not-allowed"}`}> Demo</button>
+            <button className={` rounded-md px-2 font-light text-white opacity-70 hover:opacity-100 tracking-wide ${item.live != "null" ? "cursor-pointer bg-gray-800 border border-cyan-600" : "cursor-not-allowed bg-gray-800 text-gray-400 "}`}> Demo</button>
           </a>
           
           <a href={item.code} target='_blank'>
-            <button className='bg-gray-800 rounded-md px-2 font-extralight text-white opacity-70 hover:opacity-100 cursor-pointer  tracking-wide'> Code</button></a>
+            <button className='bg-gray-800 rounded-md px-2 font-extralight text-white opacity-70 hover:opacity-100 cursor-pointer  tracking-wide border border-cyan-600'> Code</button></a>
       </div>
     </div>
 </>

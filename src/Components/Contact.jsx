@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="flex justify-center py-5 sm:py-16 lg:py-8">
         <div class="md:text-3xl text-2xl font-bold top-4 tracking-widest ">
           <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-cyan-500 to-violet-500 border-b-2">
-            Contact
+            CONTACT
           </span>
         </div>
       </div>

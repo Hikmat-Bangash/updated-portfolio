@@ -29,12 +29,12 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full  xl:h-[96vh] relative top-14 bg-gradient-to-b from-gray-700 to-black  z-0 "
+      className="w-full xl:h-[96vh] relative top-14 -mt-12 md:-mt-0 bg-gradient-to-b from-gray-700 to-black  z-0 "
     >
       <div className="container mx-auto h-[70vh] lg:h-[85vh] ">
         <div className="flex justify-around items-center h-full pt-10 md:-mt-20 xl:-mt-16">
           <div className="hidden md:flex flex-1 justify-center items-center h-full">
-            <img src={mypic} alt="MY_PICTURE" className="object-cover rounded-b-md" />
+            <img src={mypic} alt="MY_0PICTURE" className="object-cover rounded-b-md" />
           </div>
 
           <div className="flex-1 flex flex-col justify-center items-center md:justify-start md:items-start">

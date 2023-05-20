@@ -1,5 +1,5 @@
 import React from 'react'
-import Projects from './projects'
+import Projects from './Projects'
 
 const Experience = () => {
   return (
@@ -7,13 +7,13 @@ const Experience = () => {
     <div className="flex justify-center py-16 lg:py-8 mb-6">
       <div class="md:text-3xl text-2xl font-bold top-4 ">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-cyan-500 to-violet-500 border-b-2 tracking-widest">
-          Portfolio
+          PORTFOLIO
         </span>
       </div>
     </div>
 
-  <div className="container mx-auto">
-  <div className='flex flex-col items-center text-center'>
+  <div className="container mx-auto mt-[-38px] md:mt-0">
+  <div className='hidden md:flex flex-col items-center text-center'>
       
           <p className='subtitle text-white mb-8'>
           The following are some recent projects I have worked on.

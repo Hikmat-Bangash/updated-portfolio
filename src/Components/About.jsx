@@ -39,7 +39,7 @@ const About = () => {
       <div className="flex justify-center py-4 lg:py-8">
         <div class="md:text-3xl text-2xl font-bold top-4 tracking-widest ">
           <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-cyan-500 to-violet-500 border-b-2">
-            About
+            ABOUT
           </span>
         </div>
       </div>
@@ -57,7 +57,7 @@ const About = () => {
                 Hikmat Bangash
               </h2>
               <p className="lg:mb-4 text-md font-normal text-cyan-500 tracking-widest">
-                Mardan KPK, Pakistan | +92-3319395175
+                Islamabad, Pakistan | +923319395175
               </p> 
               <hr className="lg:mb-4 mb-3 opacity-5" />
               <p className="flex-wrap justify-start mb-3 lg:w-[90%] opacity-80">
