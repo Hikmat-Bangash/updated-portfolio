@@ -39,7 +39,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="z-30 h-20 md:h-16 w-full fixed overflow-hidden shadow-lg bg-transparent ">
+      <div className="z-30 h-17 md:h-16 w-full fixed overflow-hidden shadow-lg  bg-gradient-to-t from-slate-800 to-gray-900  ">
         {/* navigation bar */}
         <div className="flex justify-around items-center p-3 backdrop-blur-2xl">
           <div className="logo">

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 // import data
 // projects images
+import project0 from '../../assets/img/pmru2.png';
 import Project1 from '../../assets/projects/ChatGPT.jpeg';
 import Project2 from '../../assets/projects/dashboard.png';
 import Project3 from '../../assets/projects/socialApp.jpg';
@@ -22,20 +23,20 @@ import Project13 from '../../assets/projects/musicplayer.jpg';
 // projects
 const projectsData = [
   {
+    id: '0',
+    image: project0,
+    name: 'PMRU GOVT KPK',
+    category: 'Next',
+    code: "https://gitlab.com/grey-software/nest/community-cleanup",
+    live: "https://gitlab.com/grey-software/nest/community-cleanup",
+  },
+  {
     id: '1',
     image: Project1,
     name: 'ChatGPT clone',
     category: 'Next',
     code: "https://github.com/Hikmat-Bangash/chatGPT-clone",
     live: "https://chat-gpt-clone-eight-pi.vercel.app/",
-  },
-  {
-    id: '2',
-    image: Project2,
-    name: 'Dashboard',
-    category: 'React',
-    code: "https://github.com/Hikmat-Bangash/Dashboard-in-React.js",
-    live: "https://dashboard-in-react-js.vercel.app/",
   },
   {
     id: '3',
@@ -46,15 +47,6 @@ const projectsData = [
     live: "https://social-media-app-red.vercel.app/auth",
   },
   {
-    id: '4',
-    image: Project4,
-    name: 'Pizza App',
-    category: 'Next',
-    code: " https://github.com/Hikmat-Bangash/Pizza-Ordering-app",
-    live: "null",
-   
-  },
-  {
     id: '5',
     image: Project5,
     name: 'AI Chatbot pwa app',
@@ -63,10 +55,29 @@ const projectsData = [
     live: "https://ai-assistant-hkb.vercel.app/"
   },
   {
+    id: '2',
+    image: Project2,
+    name: 'Dashboard',
+    category: 'React',
+    code: "https://github.com/Hikmat-Bangash/Dashboard-in-React.js",
+    live: "https://dashboard-in-react-js.vercel.app/",
+  },
+ 
+  {
+    id: '4',
+    image: Project4,
+    name: 'Pizza App',
+    category: 'Next',
+    code: " https://github.com/Hikmat-Bangash/Pizza-Ordering-app",
+    live: "null",
+   
+  },
+ 
+  {
     id: '6',
     image: Project6,
     name: 'Social Media API',
-    category: 'Node-API',
+    category: 'API',
     code: "https://github.com/Hikmat-Bangash/Social-Media-App-backend",
     live: "null",
   },
@@ -74,7 +85,7 @@ const projectsData = [
     id: '7',
     image: Project7,
     name: 'HRB Project Api',
-    category: 'Node-API',
+    category: 'API',
     code: "https://github.com/Hikmat-Bangash/Hotel-room-booking-project-api",
     live: "null",
   },
@@ -82,7 +93,7 @@ const projectsData = [
     id: '8',
     image: Project8,
     name: 'Youtube clone API',
-    category: 'Node-API',
+    category: 'API',
     code: "https://github.com/Hikmat-Bangash/youtube_clone",
     live: "null",
   },
@@ -140,7 +151,7 @@ const projectsNav = [
     name: 'React',
   },
   {
-    name: 'Node-API',
+    name: 'API',
   },
   {
     name: 'Next',
